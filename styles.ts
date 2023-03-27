@@ -1,0 +1,151 @@
+import {StyleSheet} from 'react-native';
+
+export const styles = StyleSheet.create({
+
+  scrollView: {
+    backgroundColor: '#FFF',
+    paddingHorizontal:15,
+    flex:1,
+    width:'100%',
+    height:'100%'
+  },
+  container:{
+    alignItems: 'center',
+    justifyContent: 'center',
+    flex:1,
+    width:'100%',
+    height:'100%',
+    backgroundColor:'#FFF',
+    paddingHorizontal:15,
+  },
+  logo:{
+    width:150,
+    height:150,
+    marginBottom:20,
+    marginTop:20,
+    resizeMode:'contain',
+    alignItems:'center',
+    justifyContent:'center',
+    overflow:'hidden',
+    alignSelf:'center',
+    padding:10,
+    shadowColor: "#000",
+    shadowOffset: {
+      width: 0,
+      height: 2
+  },
+  shadowOpacity: 0.25,
+  shadowRadius: 3.84
+  },
+  h1:{
+    color:'#000',
+    fontSize:27,
+    fontWeight:'bold',
+    marginVertical:10,
+    textAlign:'center',
+    width:'100%',
+    marginBottom:20,
+    marginTop:20
+  },
+  h2:{
+    color:'#999',
+    fontSize:15,
+    marginVertical:10,
+    textAlign:'center',
+    width:'100%'
+  },
+  inputArea:{
+    width:'100%',
+    paddingTop:20,
+    fontWeight:'bold'
+  },
+  inputLabel:{
+    color:'#777',
+    fontSize:14,
+    marginBottom:7,
+    width:'100%',
+    textAlign:'left',
+    marginLeft:5,
+    marginTop:10,
+    letterSpacing:1
+  },
+  inputField:{
+    borderWidth:2,
+    borderRadius:5,
+    borderColor:'#DDD',
+    fontSize:15,
+    padding:10,
+    width:'100%',
+    color:'#999',
+    height:50
+  },
+  aditionals:{
+    width:'100%',
+    flexDirection:'row',
+    justifyContent:'flex-end',
+    alignItems:'flex-end'
+  },
+  forgotBtnArea:{
+    width:'50%',
+    alignItems:'flex-end',
+    justifyContent:'center',
+    height:40,
+  },
+  forgotBtnText:{
+    color:'#4267B2',
+    fontSize:16,
+    fontWeight:'bold',
+    textDecorationColor:'#999',
+    textDecorationStyle:'solid'
+  },
+  button:{
+    width:'100%',
+    height:50,
+    backgroundColor:'#4267B2',
+    borderRadius:5,
+    alignItems:'center',
+    justifyContent:'center',
+    marginTop:10,
+    marginBottom:10
+  },
+  buttonText:{
+    color:'#FFF',
+    fontSize:16
+  },
+  signUpArea:{
+    width:'100%',
+    flexDirection:'row',
+    justifyContent:'center',
+    alignItems:'center',
+    marginTop:10,
+    marginBottom:20
+  },
+  signUpText:{
+    color:'#999',
+    fontSize:14,
+    fontWeight:'bold',
+    textDecorationColor:'#999',
+    textDecorationStyle:'solid',
+    marginRight:5
+  },
+  signUpBtnText:{
+    color:'#4267B2',
+    fontSize:14,
+    fontWeight:'bold',
+    textDecorationColor:'#000',
+    textDecorationStyle:'solid',
+    marginLeft:5
+  },
+  footerArea:{
+    width:'100%',
+    flexDirection:'row',
+    justifyContent:'center',
+    alignItems:'center'
+  },
+  footerText:{
+    color:'#999',
+    fontSize:14,
+    textDecorationColor:'#999',
+    textDecorationStyle:'solid',
+  }
+});
